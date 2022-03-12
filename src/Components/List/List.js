@@ -14,7 +14,7 @@ const List = (props) => {
             <div className='mx-2 container-fluid'>
                 <h2 className='container-fluid' >{title}</h2>
                 <h4 className='my-5'>{text1}</h4>
-                <h4>{text2}</h4>
+                <h4>{text2}</h4> 
             </div>
             <button onClick={(e)=>handleDelete(e)} className='btn btn-danger delete-btn'>Delete</button>
         </div>
