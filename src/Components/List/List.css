@@ -13,7 +13,59 @@
     height: 100%;
     border-radius: 5px;
 }
+.title{
+    margin-bottom: 60px;
+}
+.text{
+    margin-bottom: 25px;
+}
 .delete-btn{
     height: 50px;
     width: 80px;
+}
+@media only screen and (max-width: 766px){
+    .list-card{
+        display: inline;
+        height: 300px;
+    }
+    .list-card img{
+        display: inline-block;
+        height: 50%;
+        width: 100%;
+    }
+    .title{
+        box-shadow: 1px 2px 2px 2px gray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .delete-btn{
+        margin-left: 226px;
+        margin-top: -116px;
+    }
+    .text{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 425px){
+	.list-card{
+        display: inline;
+        height: 300px;
+    }
+    .list-card img{
+        display: inline-block;
+        height: 50%;
+        width: 100%;
+    }
+    .title{
+        box-shadow: 1px 2px 2px 2px gray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .delete-btn{
+        margin-left: 220px;
+        margin-top: -116px;
+    }
+    .text{
+        width: 50%;
+    }
 }
